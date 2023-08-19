@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main{
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px gray;
+  width: 500px;
+  /* border-bottom: 10px; */
+  background-color: white;
+}
+
+.btn1{
+  background-color: black;
+  color: antiquewhite;
+  border: 2px solid antiquewhite;
+  border-radius: 5px ;
+  box-shadow: 2px 2px 2px #282c34;
+
+}
+.input{
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px #282c34
+  
+}
+.btn2{
+  background-color: blue;
+  border: 2px solid antiquewhite;
+  color: antiquewhite;
+  box-shadow: 2px 2px 2px red;
+  border-radius: 5px;
+}
+
+body{
+  background:linear-gradient(to right , rgb(22, 15, 14) , rgb(73, 60, 63)) ;
+  /* height: 100vh; */
 }
